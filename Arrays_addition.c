@@ -51,28 +51,41 @@ int main() {
 
 /*
 Output:
-Enter number a:2
-
 Enter 5 numbers of arr1:
 --------------------------------
 Enter arr1[1][1]:1
 Enter arr1[1][2]:2
-Enter arr1[2][1]:3
-Enter arr1[2][2]:1
+Enter arr1[1][3]:3
+Enter arr1[2][1]:4
+Enter arr1[2][2]:5
+Enter arr1[2][3]:6
+Enter arr1[3][1]:7
+Enter arr1[3][2]:8
+Enter arr1[3][3]:9
 --------------------------------
 Enter 5 numbers of arr2:
 --------------------------------
-Enter arr2[1][1]:2
-Enter arr2[1][2]:3
-Enter arr2[2][1]:4
-Enter arr2[2][2]:5
+Enter arr2[1][1]:9
+Enter arr2[1][2]:1
+Enter arr2[1][3]:2
+Enter arr2[2][1]:3
+Enter arr2[2][2]:4
+Enter arr2[2][3]:5
+Enter arr2[3][1]:6
+Enter arr2[3][2]:7
+Enter arr2[3][3]:8
 --------------------------------
 Addition of two arrays is:
 --------------------------------
-Enter arr3[1][1]:3
-Enter arr3[1][2]:5
+Enter arr3[1][1]:10
+Enter arr3[1][2]:3
+Enter arr3[1][3]:5
 Enter arr3[2][1]:7
-Enter arr3[2][2]:6
+Enter arr3[2][2]:9
+Enter arr3[2][3]:11
+Enter arr3[3][1]:13
+Enter arr3[3][2]:15
+Enter arr3[3][3]:17
 
 */
 
@@ -139,17 +152,18 @@ Enter arr1[0][0]:1
 Enter arr1[0][1]:2
 Enter arr1[0][2]:3
 Enter arr1[0][3]:4
-Enter arr1[1][0]:1
-Enter arr1[1][1]:2
-Enter arr1[1][2]:3
-Enter arr1[1][3]:4
-Enter arr1[2][0]:1
-Enter arr1[2][1]:2
-Enter arr1[2][2]:3
-Enter arr1[2][3]:4
-Enter arr1[3][0]:1
-Enter arr1[3][2]:2
-Enter arr1[3][3]:3
+Enter arr1[1][0]:5
+Enter arr1[1][1]:6
+Enter arr1[1][2]:7
+Enter arr1[1][3]:8
+Enter arr1[2][0]:9
+Enter arr1[2][1]:0
+Enter arr1[2][2]:1
+Enter arr1[2][3]:2
+Enter arr1[3][0]:3
+Enter arr1[3][1]:4
+Enter arr1[3][2]:5
+Enter arr1[3][3]:6
 --------------------------------
 Enter numbers of arr2:
 --------------------------------
@@ -157,34 +171,35 @@ Enter arr2[0][0]:1
 Enter arr2[0][1]:2
 Enter arr2[0][2]:3
 Enter arr2[0][3]:4
-Enter arr2[1][0]:1
-Enter arr2[1][1]:2
-Enter arr2[1][2]:3
-Enter arr2[1][3]:4
+Enter arr2[1][0]:5
+Enter arr2[1][1]:6
+Enter arr2[1][2]:7
+Enter arr2[1][3]:8
 Enter arr2[2][0]:1
 Enter arr2[2][1]:2
 Enter arr2[2][2]:3
 Enter arr2[2][3]:4
-Enter arr2[3][0]:1
-Enter arr2[3][1]:2
-Enter arr2[3][2]:3
-Enter arr2[3][3]:4
+Enter arr2[3][0]:5
+Enter arr2[3][1]:6
+Enter arr2[3][2]:7
+Enter arr2[3][3]:8
 --------------------------------
 Addition of two arrays is:
 --------------------------------
 
-The matrix is :
+The matrix is : 
 
-2       4       6       5
-
-
-5       4       6       2
+2       4       6       10
 
 
-2       4       6       1
+10      12      14      10
 
 
-1       5       5       7
+10      2       4       8
+
+
+8       10      12      3
+
 
 */
 
